@@ -23,3 +23,6 @@ plt.axis('off')
 plt.show()
 plt.imshow(brain_image, cmap='Greys_r')
 plt.show()
+
+plt.hist(brain_image, bins=10)
+plt.show()
