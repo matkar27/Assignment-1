@@ -9,3 +9,6 @@ plt.imshow(brain_image)
 plt.title('Display Image read using imread()') 
 plt.axis('off')
 plt.show()
+
+brain_image.shape
+plt.show()
